@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding: 0;
+    background-color: aqua;
+}
+
+.container{
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 2px 3px 15px 5px rgb(0, 72, 255);
+    display: flex;
+    height: 600px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    width: 350px;
+}
+
+h3{
+    color: white;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 152px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+h3:hover{
+    color: orangered;
+    cursor: pointer;
+}
+
+.screen{
+    border-radius: 10px;
+    background-color: rgb(32, 38, 35);
+    margin: 30px;
+    height: 100px;
+    width: 280px;
+}
+
+.input{
+    background-color: rgb(19, 199, 109);
+    height: 100px;
+    width: 280px;
+    font-size: 40px;
+    text-align: right;
+}
+
+
+
+
+.rowO, .rowT, .rowTh, .rowF, .rowFi{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    width: 280px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 128, 0);
+    font-size: 20px;
+    width: 60px;
+    transition:all .3s ease-out;
+}
+
+.equal{
+    background-color: rgb(9, 167, 9);
+}
+
+.clear{
+    background-color: red;
+}
+.rowO button, .mod, .close, .open, .dot{
+    background-color: rgb(9, 167, 9);
+}
+button:active{
+    transform: translateY(4px);
+}
+button:hover{
+    cursor: pointer;
+    background-color: #89C4E1;
+    color: black;
+    border: 1px solid white;
+}
+
